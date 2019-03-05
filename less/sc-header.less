@@ -1,0 +1,43 @@
+
+.header {
+	background-color: white;
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: @space-4;
+    position: relative;
+    z-index: 100;
+    @media (min-width: @screen-sm) {
+			height: 70px;
+	        line-height: 70px;
+	    }
+}
+
+
+.header .container {
+    padding-left: 0;
+    padding-right: 0;
+    
+    	@media (min-width: @screen-sm) {
+			padding-left: @space-1;
+			padding-right: @space-1;
+	    }
+	}
+
+.header.container-fluid {
+    box-shadow: @shadow-small;
+}
+
+#subheader-manAcc {
+    background-color: @cl-g5;
+    margin-top:  @Nspace-4;
+    box-shadow: none;
+    z-index: 0;
+    @epsilon-size: 18px;
+    text-align: center;
+    font-family: @displayStack;
+    font-size: @epsilon-size;
+     @media (min-width: @screen-sm) {
+			height: 50px;
+	        line-height: 50px;
+	    }
+}

@@ -1,0 +1,125 @@
+@displayStack: 'Titillium Web', sans-serif;
+@headerStack: 'Titillium Web', sans-serif;
+@bodyStack: 'Open Sans', sans-serif;
+
+@fw-ultra-light: 100;
+@fw-light: 200;
+@fw-book: 300;
+@fw-regular: 400;
+@fw-medium: 500;
+@fw-semi-bold: 600;
+@fw-bold: 700;
+@fw-black: 800;
+
+
+@alpha-size:    36px; 
+@beta-size:     30px;
+@gamma-size:    26px; 
+@delta-size:    22px;
+@epsilon-size:    18px;
+
+
+@text-big-size: 18px; 
+@text-normal-size: 16px;
+@text-small-size: 14px; 
+@text-smallest-size: 12px;
+@text-tiny-size: 10px;
+
+p {
+	font-family: @bodyStack;
+	font-size: 16px;
+	line-height: 1.25;
+	margin-bottom: 0;
+    font-weight: @fw-regular;
+    color: @cl-g1;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: @headerStack;
+	line-height: 1.1;
+    font-weight: @fw-bold;
+    color: @cl-g1;
+}
+
+
+
+
+// custom styles
+.type-spec {
+	font-size: 10px;
+	font-weight: bold;
+	color: blue;
+}
+
+.type-display {
+	font-family: @displayStack;
+	line-height: 1.1; 
+	font-weight: bold;
+    color: @cl-g1;
+}
+
+
+// display type
+.alpha,
+.beta,
+.gamma,
+.delta {
+	font-family: @headerStack;
+	line-height: 1.1;
+    font-weight: @fw-regular;
+    color: @cl-g1;
+}
+
+.alpha     { font-size: @alpha-size; }
+.beta      { font-size: @beta-size; }
+.gamma     { font-size: @gamma-size; }
+.delta     { font-size: @delta-size; }
+
+
+// number type
+.big-number {
+    font-family: @headerStack;
+	line-height: 1;
+    font-size: 50px;
+    font-weight: @fw-bold;
+    color: @cl-g1;
+}
+.big-number-pre {
+    font-family: @headerStack;;
+	line-height: 1;
+    font-size: 30px;
+    font-weight: @fw-bold;
+    color: @cl-g1;
+}
+
+
+// body type size
+.text-big,
+.text-normal,
+.text-small,
+.text-smallest,
+.text-tiny {
+    font-family: @bodyStack;
+    line-height: 1.25;
+    color: @cl-g1;
+}
+
+.text-big          {font-size: @text-big-size; }
+.text-normal       {font-size: @text-normal-size;}
+.text-small        {font-size: @text-small-size; }
+.text-smallest     {font-size: @text-smallest-size;}
+.text-tiny         {font-size: @text-tiny-size;}
+
+.text-para {
+    font-family: @bodyStack;
+    line-height: 1.25;
+    font-size: 16px;
+    margin-bottom: @space-1;
+}
+
+.text-para-last {
+    margin-bottom: 0;
+}
+
+
+
+

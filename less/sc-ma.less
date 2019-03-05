@@ -1,0 +1,63 @@
+
+.ma-card-hd-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+.ma-card-hd {
+    //font-weight: @fw-bold;
+    margin-bottom: @space-2;
+    
+    @media (min-width: @screen-md) {
+			margin-bottom: @space-4;
+	    }
+}
+.ma-card-hd-setup {
+	width: 75%;
+}
+.hd-action {
+	width: 25%!important;
+}
+
+.ma-setting-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: @space-1;
+    padding-bottom: @space-1;
+    border-bottom: 1px solid @cl-g4;
+    
+    @media (min-width: @screen-md) {
+			margin-bottom: @space-2;
+            padding-bottom: @space-2;
+	    }
+}
+.ma-setting-wrapper:last-of-type {
+    border-bottom: none;
+}
+
+.ma-label,
+.ma-action {
+    font-family: @displayStack;
+    font-size: 16px;
+    margin-bottom: @space-0;
+    font-weight: bold;
+    width: ~"calc(100% - 200px)";
+    line-height: 1.1;
+}
+.ma-action {
+    color: @cl-ocean;
+    width: 200px;
+    text-align: right!important; 
+}
+
+.ma-action:hover {
+    cursor: pointer;
+    color: @cl-sky;
+}
+
+.ma-status {
+    font-size: 14px;
+    width: 100%;
+    @media (min-width: @screen-lg) {
+			//font-size: 16px;
+	    }
+}
